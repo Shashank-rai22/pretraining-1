@@ -1,0 +1,87 @@
+body {
+    background-color: #ffffcc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    word-spacing: 9px;
+    letter-spacing: 7px;
+    background-color: #990000;
+    color: #ffffcc;
+    border-bottom: 15px solid #cc0000;
+}
+
+.intro {
+    font-size: 18px;
+}
+.subheading {
+    background-color: #009900;
+    color: white;
+}
+
+.red {
+    color: #a0130f;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.zeus {
+    color: #a85098;
+    text-decoration: none;
+    font-size: 18px;
+}
+.zeus:hover {
+    text-decoration: underline;
+}
+
+.google {
+    border: 2px dotted gray;
+    display: inline-block;
+}
+.google img {
+    display: block;
+    padding-right: 50px;
+    background-color: white;
+}
+
+h3 {
+    color: #9d9d9b;
+}
+
+.demotable {
+    background-color: #cccccc;
+}
+
+.comment-input {
+    width: 240px;
+    height: 100px;
+    resize: vertical;
+    overflow: auto;
+}
+
+.formgroup {
+    margin-bottom: 20px;
+}
+.formgroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.radiogroup label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.radiogroup input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}

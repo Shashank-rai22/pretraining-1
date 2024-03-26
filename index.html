@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first webpage</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>My first web page</h1>
+        <h2 class="subheading">What this is</h2>
+        <p class="intro">Welcome to <i>my first webpage</i>. I created this webpage without the assistance of a webpage editor. Just my little text editor and a keen <i><b>understanding of html</b></i></p>
+        <h2 class="subheading">Why this is</h2>
+        <ul class="red">
+            <li>To learn HTML</li>
+            <li>List element</li>
+                <ol>
+                    <li>Home</li>
+                    <li>FAQ</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ol>
+            <li>Here I have created ordered and unordered list</li>
+        </ul>
+        <h2 class="subheading">ZeusLearning.com</h2>
+        <a class="zeus" href="https://www.zeuslearning.com/" target="_blank">This link will open zeuslearning.com in a new tab</a>
+        <h2 class="subheading">On click of following image navigate to Google.com</h2>
+        <a class="google" href="https://www.google.com/"><img src="/images/unnamed.webp" alt="Google" style="width: 220px; height: 150px;"></a>
+        <h3>some random table</h3>
+        <table class="demotable">
+            <tr>
+                <td>Row 1, cell 1</td>
+                <td>Row 1, cell 2</td>
+                <td>Row 1, cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, cell 1</td>
+                <td>Row 2, cell 2</td>
+                <td>Row 2, cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, cell 1</td>
+                <td>Row 3, cell 2</td>
+                <td>Row 3, cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 4, cell 1</td>
+                <td>Row 4, cell 2</td>
+                <td>Row 4, cell 3</td>
+            </tr>
+        </table>
+        <h3>Some random form</h3>
+        <p><i><b>Note:</b></i> It looks the part, but won't do anything.</p>
+        <form id="demoForm">
+            <div class="formgroup">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+            </div>
+            <div class="formgroup">
+                <label for="comments">Comments:</label>
+                <textarea class="comment-input" id="comments" name="comments" placeholder="Your comments"></textarea>
+            </div>
+            <div class="formgroup">
+                <label>Are you:</label>
+                <div class="radiogroup">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="radiogroup">
+                    <input type="radio" id="female" name="gender" value="female" style="margin-top: 8px;">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <button id="submitBtn" style="margin-top: 5px; width: 130px; height: 25px;">Submit Query</button>
+        </form>
+    </body>
+</html>
